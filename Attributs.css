@@ -19,7 +19,7 @@
 
 #CenterBody {
 	width: 1200px;
-	height: 750px;
+	height: 900px;
 	float: left;
 	background-color: #9d9b9b;
 }
@@ -31,6 +31,17 @@
 	border: 1px solid #000000;
 	border-radius: 3px;
 	background-image: url(Bite%20Site/01-Men/01.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000px 400px;
+}
+#CenterBody #part1:hover  {
+	width: 1000px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	background-image: url(Bite%20Site/01-Men/01-ho.jpg);
 	background-repeat: no-repeat;
 	background-size: 1000px 400px;
 }
@@ -53,6 +64,26 @@
 .#QNANpx 0%;
 	background-position: 0% -60px;
 }
+#CenterBody #part2:hover  {
+	width: 500px;
+	height: 150px;
+	margin-left: 95px;
+	margin-right: auto;
+	float: left;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	background-image: url(Bite%20Site/01-Men/02-ho.jpg);
+
+
+
+
+
+
+	background-position: 1
+.#QNANpx 0%;
+	background-position: 0% -60px;
+}
 #CenterBody  #part3 {
 	width: 500px;
 	height: 150px;
@@ -65,6 +96,18 @@
 	background-image: url(Bite%20Site/01-Men/03.jpg);
 	background-position: left 0%;
 }
+#CenterBody #part3:hover   {
+	width: 500px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: 10px;
+	float: left;
+	margin-top: 50px;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	background-image: url(Bite%20Site/01-Men/03-ho.jpg);
+	background-position: left 0%;
+}
 #CenterBody #part4 {
 	width: 1000px;
 	height: 400px;
@@ -75,6 +118,17 @@
 	background-repeat: no-repeat;
 	background-size: 1000px 400px;
 	background-image: url(Bite%20Site/02-Women/05.jpg);
+}
+#CenterBody #part4:hover  {
+	width: 1000px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	background-repeat: no-repeat;
+	background-size: 1000px 400px;
+	background-image: url(Bite%20Site/02-Women/05-ho.jpg);
 }
 #CenterBody #part5 {
 	width: 500px;
@@ -96,6 +150,27 @@
 .#QNANpx 0%;
 	background-position: 20 -10px;
 }
+#CenterBody #part5:hover  {
+	width: 500px;
+	height: 150px;
+	margin-left: 95px;
+	margin-right: auto;
+	float: left;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	background-image: url(Bite%20Site/02-Women/02-ho.jpg);
+
+
+
+
+
+
+
+	background-position: 1
+.#QNANpx 0%;
+	background-position: 20 -10px;
+}
 #CenterBody #part6 {
 	width: 500px;
 	height: 150px;
@@ -106,6 +181,18 @@
 	border-radius: 3px;
 	border: 1px solid #000000;
 	background-image: url(Bite%20Site/02-Women/03.jpg);
+	background-position: left -20px;
+}
+#CenterBody #part6:hover  {
+	width: 500px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: 10px;
+	float: left;
+	margin-top: 50px;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	background-image: url(Bite%20Site/02-Women/03-ho.jpg);
 	background-position: left -20px;
 }
 #CenterBody #part7 {
@@ -391,14 +478,14 @@
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	left: 350px;
-	bottom: 10px;
+	left: 347px;
+	bottom: -9px;
 	overflow-x: hidden;
 	overflow-y: visible;
 }
 #tranzz {
 	width: 10px;
-	height: 400px;
+	height: 170px;
 	background-color: #9D9B9B;
 	margin-right: 12px;
 	float: right;
@@ -408,8 +495,47 @@
 	margin-top: 0px;
 }
 #tranzz:hover {
-	width: 400px;
+	width: 500px;
 	background-color: #9D9B9B;
-	background-image: url(elissa2.jpg);
+	background-image: url(POP.jpg);
 	background-position: 0px 500px;
+}
+#ArtiStyle {
+	width: 500px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: medium;
+	font-style: oblique;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: #F3F8DD;
+	margin-bottom: 0px;
+	bottom: -400px;
+	position: relative;
+	float: none;
+}
+#CenterBody #show1 {
+	width: 1000px;
+	height: 200px;
+	background-color: #9D9B9B;
+	margin-top: 25px;
+	float: left;
+	margin-left: 100px;
+	margin-right: auto;
+}
+#CenterBody #show2 {
+	width: 1000px;
+	height: 200px;
+	background-color: #9D9B9B;
+	margin-top: 25px;
+	float: left;
+	margin-left: 100px;
+	margin-right: auto;
+}
+
+article h1 {
+	width: 500px;
+	height: 25px;
+	background-color: #EF3F6D;
 }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-123113326" name="show" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="transparent.png" width="1000" height="200" />
+
+  <require type="other" src="show.html" />
+
+  <require type="javascript" src="show_edge.js" />
+  <require type="javascript" src="show_edgeActions.js" />
+  <require type="javascript" src="show_edgePreload.js" />
+  <require type="javascript" src="edge_includes/edge.4.0.0.min.js" />
+  <require type="javascript" src="edge_includes/jquery-2.0.3.min.js" />
+
+  <require type="image" src="transparent.png" />
+  <require type="image" src="images/001.jpg" />
+  <require type="image" src="images/002.jpg" />
+  <require type="image" src="images/003.jpg" />
+  <require type="image" src="images/004.jpg" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-123113326"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="1000" hidden="true"/>
+    <property name="default-height" defaultValue="200" hidden="true"/>
+    <property name="resizable" defaultValue="false" hidden="true"/>				
+		<property name="centering" defaultValue="none" hidden="true"/>				
+		<property name="scaling" defaultValue="none" hidden="true"/>
+    <property name="html-page" defaultValue="show.html" hidden="true"/>
+  </properties>
+
+</widget>
