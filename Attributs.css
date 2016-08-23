@@ -6,6 +6,7 @@
 	margin-right: auto;
 	background-color: hsla(359,90%,47%,1.00);
 	margin-top: 0px;
+	border: 1px solid #808080;
 }
 #PageHead {
 	width: 1200px;
@@ -22,6 +23,7 @@
 	height: 900px;
 	float: left;
 	background-color: #9d9b9b;
+	position: relative;
 }
 #CenterBody #part1 {
 	width: 1000px;
@@ -469,25 +471,23 @@
 	height: 300px;
 	position: absolute;
 	left: 350px;
-	bottom: 200px;
 	width: 500px;
 	margin-bottom: 50px;
 	background-image: url(Bite%20Site/shop-front-of-bite.png);
+	top: 200px;
 }
 #Slider-bar   {
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	left: 347px;
-	bottom: -9px;
 	overflow-x: hidden;
 	overflow-y: visible;
+	top: 220px;
 }
 #tranzz {
-	width: 10px;
+	width: 20px;
 	height: 170px;
-	background-color: #9D9B9B;
-	margin-right: 12px;
+	background-color: #7C7C7C;
 	float: right;
 	-webkit-transition: all 2s ease-in 1s;
 	-o-transition: all 2s ease-in 1s;
